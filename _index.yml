@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: Google Cloud NetApp Volumes文檔
+  summary: Google Cloud NetApp Volumes可讓企業將其效能密集、延遲敏感的核心業務關鍵型應用程式遷移到 Google 並運行，而無需針對雲端進行重構。本文檔介紹如何使用NetApp
+    BlueXP設定和管理Google Cloud NetApp Volumes 。
+  keywords: Google Cloud NetApp Volumes, BlueXP
+  lead: Google Cloud NetApp Volumes可讓企業將其效能密集、延遲敏感的核心業務關鍵型應用程式遷移到 Google 並運行，而無需針對雲端進行重構。本文檔介紹如何使用NetApp
+    BlueXP設定和管理Google Cloud NetApp Volumes 。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 了解Google Cloud NetApp Volumes
+      url: concept-gcnv.html
+    - title: 快速入門
+      url: task-quick-start.html
+  - title: 使用Google Cloud NetApp Volumes
+    links:
+    - title: 管理磁碟區
+      url: task-manage-volumes.html
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP部落格
+      url: https://cloud.netapp.com/blog
+    - title: 雲端網路研討會
+      url: https://cloud.netapp.com/events

@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task-assign-role.html 
+keywords: assign admin role, admin, admin google cloud netapp volumes 
+summary: 您必須為Google Cloud NetApp Volumes的使用者指派管理員角色，然後他們才能發現BlueXP中的磁碟區。 
+---
+= 指派Google Cloud NetApp Volumes管理員角色
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您必須為Google Cloud NetApp Volumes的使用者指派管理員角色，然後他們才能發現BlueXP中的磁碟區。
+
+.步驟
+. 在 BlueXP  主控台右上角、選取 image:icon-settings-option.png["右上角的設定圖示。"] > * 身分識別與存取管理 * 。
+. 在「成員」頁面中，找到表格中的成員，選擇image:icon-action.png["這是三個並排點的圖示"]然後選擇*新增角色*。
+. 若要新增角色、請完成對話方塊中的步驟：
++
+** *選擇組織、資料夾或項目*：選擇成員應具有權限的資源層次結構級別，然後按一下*接受*
++
+選擇組織或資料夾授予成員權限
+
+** *選擇類別*：選擇角色類別。link:reference-iam-predefined-roles.html["瞭解存取角色"^]。
+** 選擇*角色*：選擇 GCNV 角色並點選*接受*。
+** 按一下“新增角色”。
+
+
+
+
+link:reference-iam-predefined-roles.html["瞭解存取角色"^]。

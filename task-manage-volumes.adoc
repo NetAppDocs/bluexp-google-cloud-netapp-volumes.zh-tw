@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-manage-volumes.html 
+keywords: google cloud netapp volumes, view volumes 
+summary: 設定工作環境後，您可以查看您的 Google Cloud NetApp磁碟區。 
+---
+= 管理現有磁碟區
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以查看現有磁碟區以及對其執行的任何操作。
+
+*必備的BlueXP角色* 組織管理員、資料夾或專案管理員，或Google Cloud NetApp Volumes管理員角色。  https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服務的 BlueXP 存取角色"^] 。
+
+
+
+== 查看卷
+
+查看磁碟區的詳細信息，例如其名稱、數量、區域、容量、已使用容量和儲存池。
+
+.步驟
+. 點選*進入工作環境*開啟工作環境。
+. 若要查看表中的特定卷，請選擇image:icon_search.png["具有三個點的圖示。"]並輸入卷宗名稱。
+. 若要查看與磁碟區相關的任何標籤，請在「*標籤*」欄中選擇「*檢視*」。
+
+
+
+
+== 查看審核日誌
+
+您可以在時間軸中查看對磁碟區執行的所有操作。
+
+.步驟
+. 在右上角，選擇*設定* > *時間軸*。
+
+
+.結果
+在*審計日誌*表中，您可以查看對卷執行的任何操作。

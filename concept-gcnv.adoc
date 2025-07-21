@@ -1,0 +1,63 @@
+---
+sidebar: sidebar 
+permalink: concept-gcnv.html 
+keywords: google cloud netapp volumes, cost, price, features, google cloud netapp volumes features, gcnv, supported regions, google regions, google cloud netapp volumes regions 
+summary: Google Cloud NetApp Volumes使企業能夠在 Google 中遷移和運行其性能密集型和延遲敏感的核心業務關鍵型應用程序，而無需針對雲端進行重構。 
+---
+= 了解Google Cloud NetApp Volumes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Google Cloud NetApp Volumes 是一項完全託管的雲端型資料儲存服務、可提供進階資料管理功能和高度擴充的效能。
+
+NetApp Volumes 有助於加快部署時間、管理工作負載和應用程式以及將工作負載遷移到雲端，同時保持本地儲存的效能和功能。
+
+
+
+== 功能
+
+* 更快、更有效率地運行企業應用程式。
+* 將雲端儲存成本降低高達 90%。
+* 滿足正常運作時間、可用性和安全性的要求。
+* 支援 NFS、SMB 和多協定環境。
+
+
+
+
+== 成本
+
+Google Cloud NetApp Volumes建立的磁碟區將從您的服務訂閱中扣除費用，而不是透過BlueXP扣除。
+
+從BlueXP發現Google Cloud NetApp Volumes區域或磁碟區無需付費。
+
+
+
+== 支援的地區
+
+https://cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_regions["查看受支援的Google Cloud NetApp Volumes區域"^]
+
+
+
+== 取得協助
+
+如需技術支持，請透過 Google Cloud 入口網站提交請求。選擇您的 Google Cloud 訂閱，並在「儲存」下選擇「Google Cloud NetApp Volumes」服務。填寫所需資訊。
+
+使用BlueXP聊天來詢問有關BlueXP中Google Cloud NetApp Volumes操作的一般問題。
+
+有關Google Cloud NetApp Volumes的一般問題，請發送電子郵件至 NetApp 的 Google Cloud 團隊 gcinfo@netapp.com。
+
+針對雲端磁碟區的相關技術問題、您可以從 Google Cloud Console 建立技術支援案例。如需詳細資訊、請參閱 link:https://cloud.google.com/netapp/volumes/docs/support["取得支援"^] 。
+
+
+
+== 相關連結
+
+* https://cloud.google.com/netapp/volumes/docs/discover/overview["Google Cloud NetApp Volumes文檔"^]
+* https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXP 複本與同步文件"^]
+

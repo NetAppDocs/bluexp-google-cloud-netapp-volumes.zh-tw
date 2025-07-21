@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task-create-working-env.html 
+keywords: google cloud netapp volumes, google cloud, netapp cloud volumes, create netapp cloud volumes, discover netapp cloud volumes service for gcnv, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients 
+summary: 在BlueXP中新增 Netapp Volumes for Google Cloud 工作環境以檢視和管理磁碟區。 
+---
+= 新增Google Cloud NetApp Volumes工作環境
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+設定服務帳戶後，在BlueXP中新增Google Cloud NetApp Volumes工作環境，以便您可以查看您的Google Cloud NetApp Volumes實例。
+
+此訂閱的雲卷顯示在工作環境中。
+
+
+NOTE: 如果您在多個Google Cloud專案中有訂閱和磁碟區、則必須針對每個專案執行此工作。
+
+.開始之前
+新增每個專案的訂閱時、您必須提供下列資訊：
+
+* 服務帳戶認證（您下載的 Json 私密金鑰）
+* 專案名稱
+
+
+.步驟
+. 從BlueXP導覽功能表中、選取*儲存設備> Canvas*。
+. 在 Canvas 頁面上，選擇 *新增工作環境*，然後選擇 *Google Cloud Platform*。
+. 在 *Google Cloud Netapp Volumes* 旁邊，選擇 *Discover*。
+. 提供有關您的NetApp Volumes 訂閱的資訊：
++
+.. 輸入您要使用的工作環境名稱。
+.. 複製 / 貼上您在先前步驟中下載的 Json 私密金鑰。
+.. 選擇*應用憑證*。
+.. 選取 Google Cloud 專案的名稱。
+.. 選擇要建立工作環境的區域。該區域必須是Google Cloud NetApp Volumes支援的區域之一。
+.. 選擇* Discover（探索）*。
++
+image:screenshot_create_environment.png["新增Google Cloud NetApp Volumes訂閱憑證的螢幕截圖。"]
+
+
+
+
+
+.結果
+BlueXP顯示您的Google Cloud NetApp Volumes工作環境。
+
+image:screenshot_gcnv_environment.png["Google Cloud NetApp Volumes Service 工作環境的螢幕截圖。"]
+
+.接下來呢？
+link:task-manage-volumes.html["查看您的捲"]。

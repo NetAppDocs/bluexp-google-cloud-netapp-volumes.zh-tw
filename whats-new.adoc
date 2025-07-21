@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: 了解BlueXP中Google Cloud NetApp Volumes支援的新功能。 
+---
+= 新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解BlueXP中Google Cloud NetApp Volumes支援的新功能。
+
+
+
+== 2025 年 21 月 7 日
+
+
+
+=== BlueXP支援Google Cloud NetApp Volumes
+
+現在您可以直接從BlueXP管理Google Cloud NetApp Volumes ：
+
+* 新增工作環境。
+* 查看您的捲。
+* 刪除您的工作環境。
+
