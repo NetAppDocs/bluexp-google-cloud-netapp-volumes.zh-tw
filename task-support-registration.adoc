@@ -17,7 +17,7 @@ summary: 在您透過NetApp技術支援開啟支援案例之前、您必須先�
 
 * link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["Amazon FSX for ONTAP Sf"^]
 * link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
-* link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/concept-cvs-gcp.html#getting-help["適用於 Google Cloud Cloud Volumes Service"^]
+* link:https://docs.netapp.com/us-en/bluexp-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp Volumes"^]
 
 
 
@@ -59,7 +59,7 @@ summary: 在您透過NetApp技術支援開啟支援案例之前、您必須先�
 「 * 資源 * 」頁面應顯示您的 BlueXP  組織已註冊取得支援。
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["螢幕擷取畫面會顯示帳戶序號和綠色核取方塊、以及註冊支援的文字。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-support-registration.png["螢幕截圖顯示了帳戶序號、綠色複選框和文字「已註冊支援」。"]
 
 +
 請注意、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、則不會看到此相同的支援登錄狀態。不過、這並不表示您的 BlueXP  組織尚未註冊取得支援。只要組織中有一位使用者遵循這些步驟、您的組織就已註冊。

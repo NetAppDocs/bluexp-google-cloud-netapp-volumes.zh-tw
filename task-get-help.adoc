@@ -11,7 +11,7 @@ summary: NetApp以多種方式提供對BlueXP的支援。我們全年無休提�
 
 
 [role="lead"]
-NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。
+NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全天候 (24/7) 的大量免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。
 
 
 
@@ -21,7 +21,7 @@ NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供�
 
 * link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help["Amazon FSX for ONTAP Sf"^]
 * link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
-* link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/concept-cvs-gcp.html#getting-help["適用於 Google Cloud Cloud Volumes Service"^]
+* link:https://docs.netapp.com/us-en/bluexp-google-cloud-netapp-volumes/concept-gcnv.html#getting-help["Google Cloud NetApp Volumes"^]
 
 
 若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。
