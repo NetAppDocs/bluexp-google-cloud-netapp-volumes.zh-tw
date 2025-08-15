@@ -22,30 +22,34 @@ BlueXP需要透過 Google Cloud 服務帳戶獲得正確的權限。
 
 完成下列工作、以便BlueXP存取您的Google Cloud專案：
 
-* 建立新的服務帳戶
-* 將新的服務帳戶成員新增至專案、並指派給專案特定的角色（權限）
-* 為用於驗證 Google 的服務帳戶建立並下載金鑰配對
+* 如果您還沒有服務帳戶，請建立一個新的。
+* 將服務帳戶成員新增至您的專案並為其指派特定的角色（權限）。
+* 為用於向 Google 進行身份驗證的服務帳戶建立並下載金鑰對。
 
 
 .步驟
 . 在 Google Cloud 控制台中，  https://console.cloud.google.com/iam-admin/serviceaccounts["前往「服務帳戶」頁面"^] 。
 . 按一下 * 選取專案 * 、選擇您的專案、然後按一下 * 開啟 * 。
-. 按一下「*建立服務帳戶*」。
-. 輸入服務帳戶名稱（易記的顯示名稱）和說明。
+. （可選）若要建立服務帳戶，請執行下列操作：
++
+.. 按一下「*建立服務帳戶*」。
+.. 輸入服務帳戶名稱（易記的顯示名稱）和說明。
 +
 Cloud Console會根據此名稱產生服務帳戶ID。如有必要、請編輯ID：您稍後無法變更ID。
 
-. 若要立即設定存取控制項、請按一下「*建立*」、然後從頁面底部按一下「*完成*」、然後繼續下一步。
+.. 若要立即設定存取控制項、請按一下「*建立*」、然後從頁面底部按一下「*完成*」、然後繼續下一步。
+
+
 . 從「 _IAM 」頁面按一下「 * 新增 * 」、然後填寫「 _Add Memu__ 」頁面中的欄位：
 +
 .. 在 New Members （新成員）欄位中、輸入完整服務帳戶 ID 。
 +
 例如： \user1-service-account-gcnv@project1.iam.gserviceaccount.com
 
-.. 新增以下角色：
+.. 新增以下角色之一：
 +
-*** Google Cloud NetApp磁碟區管理員
-*** _Google Cloud NetApp檢視器_
+*** _Google Cloud NetApp Volumes Admin_ 或
+*** Google Cloud NetApp磁碟區檢視器
 
 
 .. 按一下「 * 儲存 * 」。

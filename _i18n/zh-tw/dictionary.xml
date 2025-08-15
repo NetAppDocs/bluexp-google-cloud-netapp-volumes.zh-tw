@@ -197,9 +197,6 @@
   <block id="635d606b676b3f92a6204c15ecb1d666" category="paragraph">BlueXP需要透過 Google Cloud 服務帳戶獲得正確的權限。</block>
   <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">設定服務帳戶</block>
   <block id="b87ecb1d933b8e5835c8e93327f7676e" category="paragraph">完成下列工作、以便BlueXP存取您的Google Cloud專案：</block>
-  <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">建立新的服務帳戶</block>
-  <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">將新的服務帳戶成員新增至專案、並指派給專案特定的角色（權限）</block>
-  <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">為用於驗證 Google 的服務帳戶建立並下載金鑰配對</block>
   <block id="ab6fcc124e86604f6bab5da13aaea51a" category="inline-link">前往「服務帳戶」頁面</block>
   <block id="7dc4b63dc4834aecd751b91ed3de3d39" category="list-text">在 Google Cloud 控制台中， <block ref="72863ecd427c906452e0c3d21111bdac" category="inline-link-rx"></block> 。</block>
   <block id="e4ca5adc5a86c098ce9d6bd2f42dc178" category="list-text">按一下 * 選取專案 * 、選擇您的專案、然後按一下 * 開啟 * 。</block>
@@ -210,7 +207,6 @@
   <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">從「 _IAM 」頁面按一下「 * 新增 * 」、然後填寫「 _Add Memu__ 」頁面中的欄位：</block>
   <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">在 New Members （新成員）欄位中、輸入完整服務帳戶 ID 。</block>
   <block id="1d172c52399b8bfd31a6c902f515b82d" category="paragraph">例如： \user1-service-account-gcnv@project1.iam.gserviceaccount.com</block>
-  <block id="e6915ea331526f7f3221d5b019733157" category="list-text">新增以下角色：</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">按一下「 * 儲存 * 」。</block>
   <block id="1baa368f450d37450a1cb47c6b7dd320" category="list-text">按一下「服務帳戶名稱」、然後從「服務帳戶詳細資料」頁面、按一下「*新增金鑰&gt;建立新金鑰*」。</block>
   <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">選擇 * JSON* 作為金鑰類型、然後按一下 * 「 Create * （建立 * ）」。</block>
@@ -313,10 +309,15 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="bbbc9b55f08bfe80f146b5207bdb7728" category="paragraph">NetApp以多種方式為BlueXP及其雲端服務提供支援。我們提供全天候 (24/7) 的大量免費自助支援選項，例如知識庫 (KB) 文章和社群論壇。您的支援註冊包含透過網路工單取得的遠端技術支援。</block>
   <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
-  <block id="a7c3b0d14336dd0504cb500448a6af93" category="list-text">Google Cloud NetApp磁碟區管理員</block>
-  <block id="9e772ef6b5ccecb14c212b186c0c7314" category="list-text">_Google Cloud NetApp檢視器_</block>
   <block id="c1dba337436d468a67c1c9656a885d2a" category="inline-link-macro">Google Cloud NetApp Volumes角色與權限</block>
   <block id="d25ce7990f7fb194c21d862125556340" category="list-text"><block ref="d25ce7990f7fb194c21d862125556340" category="inline-link-macro-rx"></block></block>
   <block id="759d32287efdf88cd8ac71dccc0ecf8d" category="inline-image-macro">螢幕截圖顯示了帳戶序號、綠色複選框和文字「已註冊支援」。</block>
   <block id="4c441b388bebcddf8c08fb782095b864" category="paragraph"><block ref="4c441b388bebcddf8c08fb782095b864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2029481d0277679de049fed89280e080" category="list-text">如果您還沒有服務帳戶，請建立一個新的。</block>
+  <block id="6e894315b1b31d63ff57c4e16a459889" category="list-text">將服務帳戶成員新增至您的專案並為其指派特定的角色（權限）。</block>
+  <block id="4c32d215a32f06bbc02ceaeed3828a5b" category="list-text">為用於向 Google 進行身份驗證的服務帳戶建立並下載金鑰對。</block>
+  <block id="b721bffff3c288c0d6fe62dae9a7f5cb" category="list-text">（可選）若要建立服務帳戶，請執行下列操作：</block>
+  <block id="0a2be9e155b7a35429d8207201437a43" category="list-text">新增以下角色之一：</block>
+  <block id="af76aae9134ddcda5d6f5f3c80e43816" category="list-text">_Google Cloud NetApp Volumes Admin_ 或</block>
+  <block id="583f7e9208c61bd50e0d1e4d972cecda" category="list-text">Google Cloud NetApp磁碟區檢視器</block>
 </blocks>
