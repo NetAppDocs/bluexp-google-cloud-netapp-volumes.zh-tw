@@ -204,14 +204,12 @@
   <block id="81c36eb6a7aa6110855ae09fd80381ab" category="list-text">輸入服務帳戶名稱（易記的顯示名稱）和說明。</block>
   <block id="66335d9ae4276106da10a758c0c3c8b7" category="paragraph">Cloud Console會根據此名稱產生服務帳戶ID。如有必要、請編輯ID：您稍後無法變更ID。</block>
   <block id="8971b16610cb4efa4b6c83e3ad176094" category="list-text">若要立即設定存取控制項、請按一下「*建立*」、然後從頁面底部按一下「*完成*」、然後繼續下一步。</block>
-  <block id="4bd66ea95ac91bc82cdc097c3614f96c" category="list-text">從「 _IAM 」頁面按一下「 * 新增 * 」、然後填寫「 _Add Memu__ 」頁面中的欄位：</block>
   <block id="8d549e601fd570fd51b0bddb07a08462" category="list-text">在 New Members （新成員）欄位中、輸入完整服務帳戶 ID 。</block>
   <block id="1d172c52399b8bfd31a6c902f515b82d" category="paragraph">例如： \user1-service-account-gcnv@project1.iam.gserviceaccount.com</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">按一下「 * 儲存 * 」。</block>
   <block id="1baa368f450d37450a1cb47c6b7dd320" category="list-text">按一下「服務帳戶名稱」、然後從「服務帳戶詳細資料」頁面、按一下「*新增金鑰&gt;建立新金鑰*」。</block>
   <block id="744132d4bfa3718f3315f6d3187cba60" category="list-text">選擇 * JSON* 作為金鑰類型、然後按一下 * 「 Create * （建立 * ）」。</block>
   <block id="ef17d662e8cfc44a88102effe9136080" category="paragraph">按一下「 * 建立 * 」、就會產生新的公開 / 私密金鑰配對、並下載至您的系統。它是唯一的私密金鑰複本。請安全地儲存此檔案、因為它可用於驗證您的服務帳戶。</block>
-  <block id="0eff7de92af8c65ac32bf20be9393a92" category="paragraph">如需詳細步驟、請參閱Google Cloud文件：</block>
   <block id="7ef475b3aa654a4c77b576b7b693b979" category="inline-link-macro">建立及管理服務帳戶</block>
   <block id="fc4ab4403cd96c67fe73442b8080f683" category="list-text"><block ref="fc4ab4403cd96c67fe73442b8080f683" category="inline-link-macro-rx"></block></block>
   <block id="b666e33c85ae74bc39da9e25479b2d5b" category="inline-link-macro">授予、變更及撤銷資源存取權</block>
@@ -320,4 +318,15 @@
   <block id="0a2be9e155b7a35429d8207201437a43" category="list-text">新增以下角色之一：</block>
   <block id="af76aae9134ddcda5d6f5f3c80e43816" category="list-text">_Google Cloud NetApp Volumes Admin_ 或</block>
   <block id="583f7e9208c61bd50e0d1e4d972cecda" category="list-text">Google Cloud NetApp磁碟區檢視器</block>
+  <block id="913de1bf08a6316fa527cd3eea7e91ef" category="list-text">在共享項目中授予 IAM 角色。</block>
+  <block id="e4815c1b80eceb906b33141a218966a0" category="section-title">建立並下載金鑰對</block>
+  <block id="116e54786f44ecd0177dd2b114e4d828" category="section-title">新增服務帳戶成員</block>
+  <block id="6d6d2ce509d08e2421b1c964eb552acc" category="list-text">在「IAM 頁面」中按一下「新增」並填寫「新增成員」頁面中的欄位：</block>
+  <block id="5c7d6cace2aa8a387b54b9dbe8b4e2ab" category="section-title">建立共享 VPC</block>
+  <block id="bc469fcc20be5428ba31a5fd135dde8c" category="paragraph">在每個將使用服務帳戶的其他 GCP 項目中，執行以下操作：</block>
+  <block id="d4f2a874cc586f639aad0321d236f3f1" category="list-text">在_IAM 頁面_中，從專案下拉選單中選擇共用 VPC 主機專案。</block>
+  <block id="5080561aad5ebf08cf55792d34a54478" category="list-text">按一下“新增主體”。</block>
+  <block id="6e1320f8528fb1d91c934c9e05845d77" category="list-text">在「*新主體*」欄位中，輸入您的服務帳戶的電子郵件地址。</block>
+  <block id="1d7587af55bbbf31c385580b0657b76c" category="list-text">從*選擇角色*下拉式選單中，選擇Google Cloud NetApp Volumes管理員角色。</block>
+  <block id="287240d4cb9fa88aea6eea70340936ce" category="paragraph">詳細步驟請參考Google Cloud文件：</block>
 </blocks>
